@@ -9,11 +9,11 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper(100,600,10);
+	paper = new Paper(100,600,20);
 	ground = new Ground(600,height,1200,20)
-	lineL = new Bin(550,620,20,100);
-	lineR = new Bin(670,620,20,100);
-	lineB = new Bin(610,660,100,20);
+	lineL = new Bin(550,640,20,100);
+	lineR = new Bin(670,640,20,100);
+	lineB = new Bin(610,680,100,20);
 
 	//Create the Bodies Here.
 
